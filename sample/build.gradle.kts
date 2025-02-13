@@ -38,7 +38,7 @@ dependencies {
     implementation(libs.androidx.activity)
     implementation(libs.androidx.fragment)
     implementation(projects.vbpd)
-    implementation(projects.vbpdReflection)
 
-    debugImplementation(libs.leakcanary.android)
+    // Add to use VBPD delegates that using reflection
+    implementation(projects.vbpdReflection)
 }
